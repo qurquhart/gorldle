@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: "nyt_connections";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/nyt_connections.ttf) format("truetype");
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
