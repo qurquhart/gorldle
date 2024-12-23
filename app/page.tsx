@@ -52,8 +52,8 @@ export default function Home() {
   const [inWordList, setInWordList] = useState<Array<string>>([]);
 
   useEffect(() => {
-    for (let guess in guesses) {
-      for (let letter in guesses[guess]) {
+    for (const guess in guesses) {
+      for (const letter in guesses[guess]) {
         if (word.includes(guesses[guess][letter])) {
           if (guesses[guess][letter] == word[letter]) {
             // correctList.push(guesses[guess][letter]);
@@ -147,7 +147,7 @@ export default function Home() {
     }
   }
 
-  const alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
+  // const alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
 
   const row1 = "qwertyuiop".split("");
   const row2 = "asdfghjkl".split("");
