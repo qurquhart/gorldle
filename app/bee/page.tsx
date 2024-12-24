@@ -15,7 +15,7 @@ export default function page() {
   const [statusText, setStatusText] = useState("Make a guess...");
 
   function initGame() {
-    const alphabet = ShuffleLetters("abcdefghijklmnopqrstuvwxyz");
+    const alphabet = ShuffleLetters("bcdfghjklmnpqrstvwxyz");
 
     const vowels = ShuffleLetters("aeiou");
 
