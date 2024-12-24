@@ -17,13 +17,15 @@ export default function page() {
   function initGame() {
     const alphabet = ShuffleLetters("abcdefghijklmnopqrstuvwxyz");
 
+    const vowels = ShuffleLetters("aeiou");
+
     const pickedLetters = [
       alphabet[1],
       alphabet[2],
       alphabet[3],
       alphabet[4],
-      alphabet[5],
-      alphabet[6],
+      vowels[0],
+      vowels[1],
     ];
     setHeroLetter(alphabet[0]);
     setLetters(pickedLetters);
