@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Gorldle",
-  description: "",
+  title: "Merry Christmas!",
+  description: "To gorl, from boy.",
 };
 
 export default function RootLayout({
