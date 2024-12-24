@@ -145,7 +145,7 @@ export default function page() {
       </div>
       <div className="flex pb-4 font-semibold text-gray-500 items-center w-min m-auto gap-2">
         Score:{" "}
-        <span className="min-w-10 rounded-full bg-yellow-400 text-black font-bold p-2 w-min px-3 flex items-center justify-center">
+        <span className="min-w-11 rounded-full bg-yellow-400 text-black font-bold p-2 w-min px-3 text-xl flex items-center justify-center">
           {totalPoints}
         </span>{" "}
       </div>

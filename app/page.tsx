@@ -13,14 +13,19 @@ export default function Home() {
       <br />
       <div className="grid gap-6">
         <Link href="/bee">
-          <div className="text-5xl border rounded-xl py-3 font-nyt font-bold uppercase">
+          <div className="text-5xl border rounded-xl py-4 font-nyt font-bold uppercase">
             <span className="text-[3.25rem]">G</span>orling{" "}
             <span className="text-[3.25rem]">B</span>ee
           </div>
         </Link>
         <Link href="/gorldle">
-          <h1 className="text-5xl border rounded-xl py-3 font-nyt font-bold uppercase">
+          <h1 className="text-5xl border rounded-xl py-4 font-nyt font-bold uppercase">
             <span className="text-[3.25rem]">G</span>orldle
+          </h1>
+        </Link>
+        <Link href="/gorldoku">
+          <h1 className="text-5xl border rounded-xl py-4 font-nyt font-bold uppercase">
+            <span className="text-[3.25rem]">G</span>orldoku
           </h1>
         </Link>
       </div>
