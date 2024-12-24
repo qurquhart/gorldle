@@ -175,8 +175,8 @@ export default function Home() {
   const [win, setWin] = useState(false);
 
   return (
-    <div className="max-w-md mx-auto p-6 pt-6 space-y-4 text-center">
-      <h1 className="text-5xl pb-3 font-nyt font-bold uppercase">
+    <div className="max-w-md mx-auto p-6 pt-4 space-y-3 text-center">
+      <h1 className="text-5xl pb-2 font-nyt font-bold uppercase">
         <span className="text-[3.25rem]">G</span>orldle
       </h1>
       {/* Input: {input} <br /> guess1: {guess1}
@@ -241,7 +241,7 @@ export default function Home() {
       {failure && (
         <div>
           <div className="bg-red-100 p-2 font-semibold flex items-center justify-between text-red-800 rounded-lg text-start border-2 border-red-200">
-            <div className="pl-1">You fuggin didn't do it!</div>
+            <div className="pl-1">You didn't fuggin do it!</div>
             <button
               onClick={() => {
                 playAgain();
