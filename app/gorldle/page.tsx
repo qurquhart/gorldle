@@ -175,11 +175,10 @@ export default function Home() {
   const [win, setWin] = useState(false);
 
   return (
-    <div className="max-w-md mx-auto p-6 pt-8 space-y-4 text-center">
-      <h1 className="text-5xl py-3 font-nyt font-bold uppercase">
+    <div className="max-w-md mx-auto p-6 pt-6 space-y-4 text-center">
+      <h1 className="text-5xl pb-3 font-nyt font-bold uppercase">
         <span className="text-[3.25rem]">G</span>orldle
       </h1>
-      <br />
       {/* Input: {input} <br /> guess1: {guess1}
       <br /> guess2: {guess2}
       <br /> guess3: {guess3}
